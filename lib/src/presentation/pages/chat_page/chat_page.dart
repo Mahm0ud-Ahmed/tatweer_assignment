@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:oranos_assessment/src/core/config/injector.dart';
+import 'package:oranos_assessment/src/core/utils/size_config.dart';
 import 'package:oranos_assessment/src/data/models/chat_model.dart';
 import 'package:oranos_assessment/src/presentation/pages/chat_page/widget/chat_bottom_bar_widget.dart';
 import 'package:oranos_assessment/src/presentation/pages/chat_page/widget/receiver_chat_widget.dart';
@@ -37,6 +38,7 @@ class _ChatPageState extends State<ChatPage> {
 
   @override
   Widget build(BuildContext context) {
+    SizeConfig().init(context);
     return Scaffold(
       body: SafeArea(
         child: Column(
