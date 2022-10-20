@@ -1,0 +1,146 @@
+
+import 'package:oranos_assessment/src/core/config/assets/assets.gen.dart';
+
+Map<String, dynamic> myUser = {
+  "id": 10,
+  "name": "Mahmoud Ahmed",
+  "title": "Flutter Developer",
+  "image": "https://img.freepik.com/free-photo/waist-up-portrait-handsome-serious-unshaven-male-keeps-hands-together-dressed-dark-blue-shirt-has-talk-with-interlocutor-stands-against-white-wall-self-confident-man-freelancer_273609-16320.jpg?w=1380&t=st=1666182207~exp=1666182807~hmac=47e628d6a72774fa2deb2de2377627bea15b06aa8d8f00d7fd259d28a20fa130",
+  "rate": 5.0,
+  "isFavorite": false,
+  "isOnline": true,
+};
+
+Map<String, dynamic> robot = {
+  "id": 124,
+  "name": "Oranos Robot",
+  "title": "Robot",
+  "image": Assets.icons.robotChatIcon,
+  "rate": 5.0,
+  "isFavorite": false,
+  "isOnline": true,
+};
+
+List<Map<String, dynamic>> chat = [
+  {
+    "message": "Hi, Whats You Name First name?",
+    "senderId": 124,
+    "receiverId": 10,
+    "data" : null,
+    "leaveChat" : false,
+  },
+  {
+    "message": "Whats Your Last name?",
+    "senderId": 124,
+    "receiverId": 10,
+    "data" : null,
+    "leaveChat" : false,
+  },
+  {
+    "message": "What's your Title?",
+    "senderId": 124,
+    "receiverId": 10,
+    "data" : null,
+    "leaveChat" : false,
+  },
+  {
+    "message": "What Categories you will need expert In?",
+    "senderId": 124,
+    "receiverId": 10,
+    "data" : ['Web Developer', 'IT', 'Flutter Developer', 'Security'],
+    "leaveChat" : true,
+  },
+];
+
+List<Map<String, dynamic>> users = [
+  {
+    "id": 0,
+    "name": "Khaled Allam",
+    "title": "Flutter Developer",
+    "image": "https://cdn.hswstatic.com/gif/play/0b7f4e9b-f59c-4024-9f06-b3dc12850ab7-1920-1080.jpg",
+    "rate": 5.0,
+    "isFavorite": true,
+    "isOnline": true,
+  },
+    {
+    "id": 6,
+    "name": "Salah El-Deen",
+    "title": "Android Developer",
+    "image": "https://media.istockphoto.com/photos/portrait-of-a-mature-businessman-working-at-his-desk-in-a-modern-picture-id1371716282?b=1&k=20&m=1371716282&s=170667a&w=0&h=P7wPdn1pNC6QtD7QqKr5Kjz6wj_pYQv8978f4FeAdSY=",
+    "rate": 1.0,
+    "isFavorite": false,
+    "isOnline": true,
+  },
+  {
+    "id": 7,
+    "name": "Sameh Saad",
+    "title": "IOS Developer",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Pierre-Person.jpg",
+    "rate": 2.0,
+    "isFavorite": false,
+    "isOnline": true,
+  },
+  {
+    "id": 8,
+    "name": "Tarek Mansour",
+    "title": "Desktop Developer",
+    "image": "https://media.istockphoto.com/photos/smiling-man-outdoors-in-the-city-picture-id1179420343?b=1&k=20&m=1179420343&s=612x612&w=0&h=c9Z3DyUg-YvgOQnL_ykTIgVTWXjF-GNo4FUQ7i5fyyk=",
+    "rate": 0.0,
+    "isFavorite": false,
+    "isOnline": true,
+  },
+  {
+    "id": 9,
+    "name": "Said Kamel",
+    "title": "Full Stack Developer",
+    "image": "https://cdn.hswstatic.com/gif/play/0b7f4e9b-f59c-4024-9f06-b3dc12850ab7-1920-1080.jpg",
+    "rate": 3.9,
+    "isFavorite": false,
+    "isOnline": true,
+  },
+  {
+    "id": 1,
+    "name": "Terry Medhurst",
+    "title": "Engineer",
+    "image": "https://robohash.org/laboriosamfacilisrem.png",
+    "rate": 4.0,
+    "isFavorite": true,
+    "isOnline": false,
+  },
+  {
+    "id": 2,
+    "name": "Sheldon Quigley",
+    "title": "IT",
+    "image": "https://robohash.org/adverovelit.png",
+    "rate": 0.0,
+    "isFavorite": false,
+    "isOnline": true,
+  },
+  {
+    "id": 3,
+    "name": "Hills Hoeger",
+    "title": "Systems Engineer",
+    "image": "https://robohash.org/consequunturautconsequatur.png",
+    "rate": 3.0,
+    "isFavorite": false,
+    "isOnline": false,
+  },
+  {
+    "id": 4,
+    "name": "Miles Cummerata",
+    "title": "Web Developer I",
+    "image": "https://robohash.org/doloremquesintcorrupti.png",
+    "rate": 2.5,
+    "isFavorite": false,
+    "isOnline": true,
+  },
+  {
+    "id": 5,
+    "name": "Mueller Ewell",
+    "title": "Paralegal",
+    "image": "https://robohash.org/facilisdignissimosdolore.png",
+    "rate": 5.0,
+    "isFavorite": true,
+    "isOnline": false,
+  },
+];

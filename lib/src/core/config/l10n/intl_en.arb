@@ -1,0 +1,12 @@
+{
+    "app_name" : "Oranos",
+    "start_page_body_title" : "Expert From Every Planet",
+    "start_page_button_title" : "Get Started",
+    "start_page_dont_account_title" : "Don’t have an account? ",
+    "start_page_sign_up_title" : "SignUp",
+    "start_page_language_title" : "English",
+    "welcome_page_button_title" : "Next",
+    "home_page_recommended_title" : "Recommended Expert",
+    "home_page_online_title" : "Online Expert"
+
+}
