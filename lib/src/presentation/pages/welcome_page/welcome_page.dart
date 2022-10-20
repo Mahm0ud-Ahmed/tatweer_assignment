@@ -71,7 +71,7 @@ class WelcomePage extends StatelessWidget {
                 height: 220,
               ),
               const SizedBox(height: 24),
-              ButtonWidget(title: S.of(context).welcome_page_button_title, onTab: ()=> NavigationHelper.pushAndReplace(context, kChatPage)),
+              ButtonWidget(title: S.of(context).welcome_page_button_title, onTab: ()=> NavigationHelper.push(context, kChatPage)),
               const SizedBox(height: 54),
               const ChooseLanguageWidget(),
               const SizedBox(height: 32),

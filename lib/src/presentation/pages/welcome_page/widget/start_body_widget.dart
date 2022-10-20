@@ -40,7 +40,7 @@ class StartBodyWidget extends StatelessWidget {
               ButtonWidget(
                 title: S.of(context).start_page_button_title, 
                 width: SizeConfig.screenWidth - 48,
-                onTab: ()=> NavigationHelper.pushAndReplace(context, kWelcomePage),
+                onTab: ()=> NavigationHelper.push(context, kWelcomePage),
               ),
               const SizedBox(height: 18),
               RichText(
